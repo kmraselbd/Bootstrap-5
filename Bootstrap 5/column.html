@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap 5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div style="margin-top: 50px;"></div>
+    <div class="container">
+
+        
+        <!-- ########## START HERE ########## -->
+        <h1 style="text-align: center;">Columns</h1>
+        <hr>
+
+        <!-- Alignment -->
+
+        <div class="container">
+            <div class="row bg-warning text-light align-items-center" style="min-height: 10rem;">
+                <div class="col text-center">Column 01</div>
+                <div class="col text-center">Column 02</div>
+                <div class="col text-center">Column 03</div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="row bg-primary text-light" style="min-height: 10rem;">
+                <div class="col align-self-start">Column 01</div>
+                <div class="col align-self-center">Column 02</div>
+                <div class="col align-self-end">Column 03</div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="row bg-secondary p-3 justify-content-evenly">
+                <div class="col-3 bg-info text-center order-3">Column 01</div>
+                <div class="col-3 bg-warning text-center order-1">Column 02</div>
+                <div class="col-3 bg-danger text-center order-2">Column 03</div>
+                
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="row bg-secondary p-3 ">
+                <div class="col-3 bg-info text-center order-3 offset-md-4">Column 01</div>
+                <div class="col-3 bg-warning text-center order-1 offset-md-1">Column 02</div>
+                
+                
+            </div>
+        </div>
+
+
+    </div>  
+    <div style="margin-top: 50px;"></div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

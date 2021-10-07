@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap 5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div style="margin-top: 50px;"></div>
+    <div class="container">
+
+        
+        <!-- ########## START HERE ########## -->
+        <h1 style="text-align: center;">Flex</h1>
+        <hr>
+
+        <!-- Enable flex behaviors -->
+
+        <div class="bg-warning p-2 d-flex">Lorem ipsum dolor sit amet.</div>
+
+        <br>
+
+        <div class="bg-warning p-2 d-flex d-sm-inline-flex d-md-flex">Lorem ipsum dolor sit amet.</div>
+
+        <hr>
+
+        <!--Direction-->
+
+        <div class="bg-info p-2 d-flex flex-row-reverse">
+            <div class="bg-warning p-2 border">Flex item 1</div>
+            <div class="bg-warning p-2 border">Flex item 2</div>
+            <div class="bg-warning p-2 border">Flex item 3</div>
+        </div>
+
+        <br><br>
+
+        <div class="d-flex flex-sm-column-reverse flex-md-column">
+            <div class="bg-success p-2 border">Flex item 1</div>
+            <div class="bg-success p-2 border">Flex item 2</div>
+            <div class="bg-success p-2 border">Flex item 3</div>
+        </div>
+
+        <hr>
+
+        <!--Justify content-->
+
+        <div class="bg-light p-2 d-flex justify-content-sm-between justify-content-md-between">
+            <div class="bg-warning p-2 border">Flex item 3</div>
+            <div class="bg-warning p-2 border">Flex item 1</div>
+            <div class="bg-warning p-2 border">Flex item 2</div>
+        </div>
+
+        <hr>
+
+        <!--Align items-->
+
+        <div class="bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+            <div class="bg-warning p-2 border">Flex item 1</div>
+            <div class="bg-warning p-2 border">Flex item 2</div>
+            <div class="bg-warning p-2 border">Flex item 3</div>
+        </div>
+
+        <hr>
+
+        <!--Align self-->
+
+        <div class="bg-light d-flex" style="height: 200px;">
+            <div class="bg-warning p-2 border">Flex item</div>
+            <div class="bg-info p-2 border align-self-baseline align-self-sm-baseline">Aligned flex item 2</div>
+            <div class="bg-warning p-2 border">Flex item</div>
+        </div>
+
+        <hr>
+
+        <!--Fill-->
+
+        <div class="d-flex">
+            <div class="p-2 flex-fill bg-info border">Flex item with a lot of content</div>
+            <div class="p-2 flex-fill bg-info border">Flex item</div>
+            <div class="p-2 flex-fill bg-info border">Flex item</div>
+        </div>
+
+        <hr>
+
+        <!--Grow-->
+
+        <div class="d-flex">
+            <div class="p-2 flex-grow-0 bg-primary text-light border">Flex item</div>
+            <div class="p-2 flex-grow-1 bg-primary text-light border">Flex item</div>
+            <div class="p-2 flex-grow-0 bg-primary text-light border">Third flex item</div>
+        </div>
+
+        <hr>
+
+        <!--Auto margins-->
+
+        <div class="d-flex bg-secondary p-2">
+            <div class="bg-warning p-2 border">Flex item</div>
+            <div class="bg-warning p-2 border ms-auto">Flex item</div>
+            <div class="bg-warning p-2 border me-auto">Flex item</div>
+        </div>
+
+        <hr>
+
+        <!---Auto margins with align-items-->
+
+        <div class="bg-success p-2 d-flex align-items-start flex-column" style="height: 200px;">
+            <div class="bg-warning p-2 border">Flex item</div>
+            <div class="bg-warning p-2 border mt-auto">Flex item</div>
+            <div class="bg-warning p-2 border">Flex item</div>
+        </div>
+
+        <hr>
+
+        <!--Wrap-->
+
+        <div class="d-flex flex-nowrap">
+            <div class="bg-info p-2 border">Flex item 1</div>
+            <div class="bg-info p-2 border">Flex item 2</div>
+            <div class="bg-info p-2 border">Flex item 3</div>
+            <div class="bg-info p-2 border">Flex item 4</div>
+            <div class="bg-info p-2 border">Flex item 5</div>
+            <div class="bg-info p-2 border">Flex item 6</div>
+            <div class="bg-info p-2 border">Flex item 7</div>
+            <div class="bg-info p-2 border">Flex item 8</div>
+            <div class="bg-info p-2 border">Flex item 9</div>
+        </div>
+
+        <hr>
+
+        <!--Order-->
+
+        <div class="d-flex flex-nowrap">
+            <div class="order-1 bg-secondary text-light p-2 border">First flex item</div>
+            <div class="order-3 bg-secondary text-light p-2 border">Second flex item</div>
+            <div class="order-2 bg-secondary text-light p-2 border">Third flex item</div>
+        </div>
+
+        <hr>
+
+        <!--Align conten-->
+
+        <div class="d-flex flex-wrap align-content-center bg-secondary" style="height: 200px;">
+            <div class="bg-success p-2 border text-light">Flex item 1</div>
+            <div class="bg-success p-2 border text-light">Flex item 2</div>
+            <div class="bg-success p-2 border text-light">Flex item 3</div>
+            <div class="bg-success p-2 border text-light">Flex item 4</div>
+            <div class="bg-success p-2 border text-light">Flex item 5</div>
+            <div class="bg-success p-2 border text-light">Flex item 6</div>
+            <div class="bg-success p-2 border text-light">Flex item 7</div>
+            <div class="bg-success p-2 border text-light">Flex item 8</div>
+            <div class="bg-success p-2 border text-light">Flex item 9</div>
+            <div class="bg-success p-2 border text-light">Flex item 10</div>
+        </div>
+
+        <hr>
+
+        <!--Media object-->
+
+        <div class="p-2 border d-flex align-items-center">
+            <div>
+                <img src="https://placeimg.com/200/200/nature" alt="animals">
+            </div>
+            <div class="mx-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A accusantium in doloremque, similique blanditiis pariatur autem ex nam veritatis qui.
+            </div>
+        </div>
+
+    </div>  
+    <div style="margin-top: 50px;"></div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
